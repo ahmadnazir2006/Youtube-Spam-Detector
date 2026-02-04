@@ -1,0 +1,16 @@
+{   
+    "manifest_version": 3,
+    "name":"Youtube Spam Detection",
+    "version":"1.0",
+    "description":"Detects spam comments using AI",
+    "permissions":["activeTab"],
+    "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+
+
+
+}
